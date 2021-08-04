@@ -31,8 +31,6 @@ public class Application implements CommandLineRunner {
 
         log.info("Testtest {}", taskModels );
 
-
-
         for (int i = 0; i <taskModels.size(); i++) {
             System.out.println(taskModels.get(i).getId());
         }
